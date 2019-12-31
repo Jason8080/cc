@@ -2,11 +2,12 @@ package com.gm.family.support;
 
 import com.gm.cc.api.AbstractCcHandler;
 import com.gm.cc.common.bo.Cc;
-import com.gm.cc.framework.Message;
-import com.gm.cc.framework.Msg;
+import com.gm.cc.framework.Registry;
+import com.gm.cc.framework.interceptor.MessageInterceptor;
+import com.gm.cc.framework.message.Message;
+import com.gm.cc.framework.message.Msg;
 import com.gm.cc.kit.BeanKit;
 import com.gm.cc.kit.JsonKit;
-import com.gm.cp.protocol.Res;
 import com.gm.cp.protocol.Type;
 
 import java.nio.channels.AsynchronousSocketChannel;
@@ -23,16 +24,8 @@ public class CcHandler extends AbstractCcHandler<Cc> {
 
     public CcHandler(AsynchronousSocketChannel asc) {
         super(asc);
-    }
-
-    @Override
-    protected boolean autoResponse(Res res, Message message) {
-        return false;
-    }
-
-    @Override
-    protected void otherCmd(Res res, Message message) {
-
+        // 注册1个拦截器
+        // Registry.registerInterceptor(MessageInterceptor.class, new MessageInterceptor() {});
     }
 
     @Override

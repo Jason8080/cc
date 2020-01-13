@@ -14,6 +14,7 @@
         <module>landlord</module>
         <module>live</module>
         <module>lottery</module>
+        <module>stock</module>
     </modules>
 
     <dependencyManagement>

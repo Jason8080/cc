@@ -18,11 +18,11 @@
 
 - CcChart: 基于CcFramework搭建的即时聊天工具 (**二进制** 交互: 比如图片..)
 
-![image-20191230183010917](assets/基于CcFramework的聊天工具后台运行图.png)
+![基于CcFramework的聊天工具后台运行图](assets/基于CcFramework的聊天工具后台运行图.png)
 
-![image-20191230183010917](assets/基于CcFramework的聊天工具效果图1.png)
+![基于CcFramework的聊天工具效果图1](assets/基于CcFramework的聊天工具效果图1.png)
 
-![image-20191230183010917](assets/基于CcFramework的聊天工具效果图2.png)
+![基于CcFramework的聊天工具效果图2](assets/基于CcFramework的聊天工具效果图2.png)
 
 # 附言 #
 
